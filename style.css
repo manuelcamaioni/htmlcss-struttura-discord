@@ -148,3 +148,49 @@ ul{
 .green-color{
     background-color: green;
 }
+
+/* SEVENTH SECTION */
+
+.seventh-section{
+    border-bottom: 2px solid white;
+}
+
+.black-bg{
+    background-color: rgb(34, 34, 34);
+}
+
+.smaller-block{
+    width: calc(60% / 4);
+    border: 2px dashed white;
+}
+
+.turquoise-color{
+    background-color: turquoise;
+}
+
+.seventh-section > .box-type-1 > .small-block{
+    border-right: 3px dashed black;
+}
+
+/* EIGHTH SECTION */
+footer{
+    background-color: rgb(34, 34, 34);
+    height: 100px;
+}
+
+.eighth-section{
+    align-items: flex-end;
+}
+
+.lightblue-container{
+    height: 50px;
+    background: lightblue;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo-footer, .button-footer{
+    width: 70px;
+    height: 25px;
+    border: 2px dashed black;
+}
