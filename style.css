@@ -13,11 +13,15 @@ header{
 
 section{
     width: 1000px;
-    
+    height: 700px;
+}
+
+.margin-auto{
+    margin: 0 auto;
 }
 
 .first-section{
-    margin: 0 auto;
+    
     height: 100px;
     justify-content: center;
     align-items: center;
@@ -69,3 +73,21 @@ ul{
 }
 
 /* SECOND SECTION */
+
+.main-section-height{
+    height: 500px;
+}
+
+.second-section{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-box{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(158, 27, 158);
+    border-radius: 10px;
+    border: 2px dotted black;
+}
